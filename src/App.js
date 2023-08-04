@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import ceo from "./images/ceo.jpg";
+import bookReading from "./images/book-reading.png";
 import webpage from "./images/web-page.png";
 function App() {
   return (
@@ -33,14 +34,16 @@ function App() {
           </div>
         </div>
       </nav>
-      <section id="section-1" className="text-center mt-5">
+      <section id="section-1" className="text-center mt-5 ">
         <a href='' className='text-decoration-none start-btn'>Start First 30 Day Trial</a>
-        <h1 className="font-60 mt-4">Increase Productivity <br /> To Done All The Task <span>Instantly</span></h1>
+        <h1 className="font-60 mt-4">Increase Productivity <br /> To Done All The Task <span className='gradent'>Instantly</span></h1>
         <p className="text-purple mt-3 mb-3">Cranberry is butlt for every member of your project team to plan. manage
           <br />track. and release great results</p>
-        <a className='text-white btn-purple text-decoration-none nav-list' href=''>Start First Trial</a>
+        <div className='mt-5'>
+          <a className='text-white btn-purple text-decoration-none nav-list' href=''>Start First Trial</a>
+        </div>
       </section>
-      <section>
+      <section className='mt-100'>
         <div className="bg-purple">
           <div className="container">
             <div className="row">
@@ -95,7 +98,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="section-2">
+      <section id="section-2" className='mt-100'>
         <div className="mtb-150">
           <div className="container">
             <div className="row">
@@ -132,7 +135,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="section3" className="mtb-150">
+      <section id="section3" className="mtb-150 mt-100">
         <div className=" bg-clr-purple">
           <div className="row">
             <div className="col">
@@ -147,7 +150,7 @@ function App() {
         </div>
         <img src={webpage} className="web-page mb-5" alt="webpage" />
       </section>
-      <section>
+      <section className='mt-100'>
         <center>
           <h1 className=" font-50 mt-5">Frequently asked questions <br />and answers</h1>
         </center>
@@ -172,20 +175,64 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
+      <section className='mt-100'>
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 className="mt-3 mb-2">Start work with your <br /> teammates effectivly <br />and seamlesly</h1>
+              <h1 className=" font-50 mt-60 mb-2">Start work with your <br /> teammates effectivly <br />and seamlesly</h1>
               <p className="text-purple mt-5 mb-5">Every  your member of work with your teamto your plan,
                 <br />manage track, and release.</p>
-              <a className='text-white btn-purple text-decoration-none nav-list' href=''>Explore Features</a>
+              <a className=' text-decoration-none mac' href=''> <i className='bi bi-apple mr-10 font-25'></i>Mac OS</a>
+              <a className=' text-decoration-none mac ms-4' href=''> <i className='bi bi-windows mr-10 font-22'></i>Windows</a>
             </div>
             <div className="col">
-
+              <img src={bookReading} className="m-5" alt="bookReading" />
             </div>
           </div>
         </div>
+      </section>
+      <footer className='mt-100'>
+        <div className='container d-flex'>
+          <div className="col-lg-3 ">
+            <h2>Cranbery</h2>
+            <i className='bi bi-facebook'></i>
+            <i className='ms-2 bi bi-instagram text-black'></i>
+            <i className='ms-2 bi bi-twitter'></i>
+          </div>
+          <div className="col-6 col-lg-2 mb-3">
+            <h6 className='fw-bold'>Company</h6>
+            <a href='' className='text-decoration-none footer-data'>Our Team</a><br />
+            <a href='' className='text-decoration-none footer-data'>FAQ</a><br />
+            <a href='' className='text-decoration-none footer-data'>Partnership</a><br />
+            <a href='' className='text-decoration-none footer-data'>Product</a>
+          </div>
+          <div className="col-6 col-lg-2 mb-3">
+            <h6 className='fw-bold'>Company</h6>
+            <a href='' className='text-decoration-none footer-data'>Contact us</a><br />
+            <a href='' className='text-decoration-none footer-data'>Submitform</a><br />
+            <a href='' className='text-decoration-none footer-data'>Get in touch</a><br />
+            <a href='' className='text-decoration-none footer-data'>Forum</a>
+          </div>
+          <div className="col-6 col-lg-2 mb-3">
+            <h6 className='fw-bold'>Company</h6>
+            <a href='' className='text-decoration-none footer-data'>Privacy polacy</a><br />
+            <a href='' className='text-decoration-none footer-data'>FAQ</a><br />
+            <a href='' className='text-decoration-none footer-data'>Partnership</a><br />
+            <a href='' className='text-decoration-none footer-data'>Product</a>
+          </div>
+          <div className="col-lg-3 ">
+            <h6 className='fw-bold'>Company</h6>
+            <a href='' className='text-decoration-none footer-data'>Our Team Every your member of Team work with your teamto your plan,
+              manage track, and release.</a>
+          </div>
+        </div>
+      </footer>
+      <section>
+        <center>
+          <div className='bg-f'>
+            <a href='' className='text-decoration-none cranbery'>Cranbery Product.Co</a>
+          </div>
+        </center>
       </section>
     </div>
   );

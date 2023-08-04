@@ -12,15 +12,22 @@
 .ml-20 {
   margin-left: 20px;
 }
-.pt-100{
+
+.pt-100 {
   padding-top: 100px;
+}
+.mt-100{
+  margin-top: 100px;
 }
 
 .mt-150 {
   margin-top: 150px;
   margin-bottom: 150px;
-
 }
+.mt-60 {
+  margin-top: 60px;
+}
+
 
 /* nav  */
 nav {
@@ -56,6 +63,12 @@ nav {
 }
 
 /* section-1 */
+.gradent{
+  font-size: 72px;
+  background: -webkit-linear-gradient( rgb(9, 11, 24), rgb(203, 196, 251));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .start-btn {
   background-color: #ddddff;
   font-weight: 650;
@@ -69,6 +82,7 @@ nav {
 .font-60 {
   font-size: 60px;
 }
+
 .font-50 {
   font-size: 50px;
 }
@@ -169,6 +183,46 @@ nav {
   margin-top: -370px;
   box-shadow: 7px 12px 20px 0px rgba(174, 171, 171, 0.4);
 }
-.bg-clr-purple{
+
+.bg-clr-purple {
   background-color: #d8d6ff;
+}
+
+.mac {
+  font-weight: 650;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #b0adfe;
+  border: 3px solid #b0adfe;
+  border-radius: 50px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+.footer-data{
+  color: #98989e;
+  font-weight: 500;
+  font-size: 13px;
+}
+.footer-data:hover{
+  color: #c93737;
+transition: 0.5s;
+}
+.cranbery{
+  color: #98989e;
+  font-weight: 500;
+  font-size: 18px;
+}
+.bg-f{
+  background-color: #f5edff;
+  padding: 15px;
 }
