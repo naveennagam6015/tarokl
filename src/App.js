@@ -36,7 +36,7 @@ function App() {
       </nav>
       <section id="section-1" className="text-center mt-5 ">
         <a href='' className='text-decoration-none start-btn'>Start First 30 Day Trial</a>
-        <h1 className="font-60 mt-4">Increase Productivity <br /> To Done All The Task <span className='gradent'>Instantly</span></h1>
+        <h1 className="font-60 mt-4">Increase Productivity <br /> To Done All The Task <span className='gradient-text'>Instantly</span></h1>
         <p className="text-purple mt-3 mb-3">Cranberry is butlt for every member of your project team to plan. manage
           <br />track. and release great results</p>
         <div className='mt-5'>
